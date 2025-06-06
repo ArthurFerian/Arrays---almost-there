@@ -146,8 +146,12 @@ console.log(reliquiaExistente);
 
 // 11. Gere uma string com todos os planetas do inventário Alpha, separados por um delimitador.
 
-const delimitador = ", "; 
+const planetas = inventarioAlpha.map((item) => item[1]);
 
-const stringPlanetas = inventarioAlpha.join(delimitador);
+const planetasString = planetas.join(", ");
 
-console.log(stringPlanetas);
+console.log(planetasString);
+
+
+// 12. Crie um texto com os nomes dos 10 primeiros itens da Beta, separados por vírgulas.
+
