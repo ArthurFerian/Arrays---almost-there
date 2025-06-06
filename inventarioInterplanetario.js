@@ -79,6 +79,12 @@ inventarioAlpha.push('o disco de Festos, 50000', ' o dodecaedro romano, 10000', 
 
 console.log(`Pós push: ${inventarioAlpha}`);
 
+// 4. Dois artefatos especiais de Kepler foram coletados e adicionados à nave Beta.
+
+
+inventarioBeta.push('Fragmento Prismático Kepler-22b, 6400', 'Núcleo de Plasma, Kepler-452b, 9100');
+
+console.table(inventarioBeta);
 
 
 
