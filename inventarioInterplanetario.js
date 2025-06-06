@@ -110,4 +110,12 @@ inventarioBeta.unshift('Múcleo de Plasma, Kepler-452b, 9100')
 console.log(`Depois do unshift: ${inventarioBeta}`);
 
 
+// 7. Um artefato incorreto foi inserido no topo da Alpha por engano. Ele deve ser excluído.
+
+let primeiroItemRemovido = inventarioAlpha.shift();
+
+
+console.log(`Depois do shift: ${inventarioAlpha}`);
+console.log(`Item removido: ${primeiroItemRemovido}`);
+
 
