@@ -87,4 +87,16 @@ inventarioBeta.push('Fragmento Prismático Kepler-22b, 6400', 'Núcleo de Plasma
 console.table(inventarioBeta);
 
 
+// 5. Um item da Alpha precisa aparecer no topo da lista para ser destacado na vitrine.
+
+let UmitemRemovido =  inventarioAlpha.pop();
+
+console.log(`Depois do pop: ${inventarioAlpha}`);
+console.log(`Item removido: ${UmitemRemovido}`);
+
+inventarioAlpha.unshift('o pilar de Ferro de Déli, 30000')
+
+console.log(`Depois do unshift: ${inventarioAlpha}`);
+
+
 
