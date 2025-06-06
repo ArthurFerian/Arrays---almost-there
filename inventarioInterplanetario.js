@@ -119,3 +119,10 @@ console.log(`Depois do shift: ${inventarioAlpha}`);
 console.log(`Item removido: ${primeiroItemRemovido}`);
 
 
+// 8. O primeiro item da Beta pertence a um museu e deve ser removido.
+
+let primeiroItemRemovidoo = inventarioBeta.shift();
+
+
+console.log(`Depois do shift: ${inventarioBeta}`);
+console.log(`Item removido: ${primeiroItemRemovidoo}`);
