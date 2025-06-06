@@ -128,6 +128,10 @@ console.log(`Depois do shift: ${inventarioBeta}`);
 console.log(`Item removido: ${primeiroItemRemovidoo}`);
 
 // 9. Verifique se a “Relíquia de Zordon” está presente no inventário Beta.
+const nomesItens = inventarioBeta.map((item) => item[0]);
 
-console.log(`A playlist inclui Relíquia de Zordon? ${inventarioBeta.includes('Relíquia de Zordon')} `);
+const reliquiaExiste = nomesItens.includes("Relíquia de Zordon");
+
+console.log(reliquiaExiste);
+
 
