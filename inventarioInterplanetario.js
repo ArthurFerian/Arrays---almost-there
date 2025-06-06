@@ -155,3 +155,11 @@ console.log(planetasString);
 
 // 12. Crie um texto com os nomes dos 10 primeiros itens da Beta, separados por vírgulas.
 
+const primeiros10Itens = inventarioBeta.slice(0, 10).join(", ");
+console.log('-------------------------');
+
+console.log(primeiros10Itens);
+
+
+
+
