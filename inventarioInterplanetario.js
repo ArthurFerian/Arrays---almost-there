@@ -73,7 +73,11 @@ let UltimoitemRemovido =  inventarioBeta.pop();
 console.log(`Depois do pop: ${inventarioBeta}`);
 console.log(`Item removido: ${UltimoitemRemovido}`);
 
+// 3. Três novos artefatos da Terra foram entregues à nave Alpha. Adicione-os ao final.
 
+inventarioAlpha.push('o disco de Festos, 50000', ' o dodecaedro romano, 10000', ' o pilar de Ferro de Déli, 30000');
+
+console.log(`Pós push: ${inventarioAlpha}`);
 
 
 
