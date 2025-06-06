@@ -98,5 +98,16 @@ inventarioAlpha.unshift('o pilar de Ferro de Déli, 30000')
 
 console.log(`Depois do unshift: ${inventarioAlpha}`);
 
+// 6. Um item da Beta deve ser promovido para o início da lista para estudo prioritário.
+
+let UmDositemsRemovido =  inventarioBeta.pop();
+
+console.log(`Depois do pop: ${inventarioBeta}`);
+console.log(`Item removido: ${UmDositemsRemovido}`);
+
+inventarioBeta.unshift('Múcleo de Plasma, Kepler-452b, 9100')
+
+console.log(`Depois do unshift: ${inventarioBeta}`);
+
 
 
