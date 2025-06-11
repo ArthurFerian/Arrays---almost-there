@@ -161,5 +161,14 @@ console.log('-------------------------');
 console.log(primeiros10Itens);
 
 
+// 13. Gere uma nova lista com os 5 primeiros itens da nave Beta para inspeção.
+
+const primeiros5Itens = inventarioBeta.slice(0, 5);
+console.log('-------------------------');
+
+console.log(primeiros5Itens);
+
+
+
 
 
