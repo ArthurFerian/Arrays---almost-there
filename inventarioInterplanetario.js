@@ -168,6 +168,13 @@ console.log('-------------------------');
 
 console.log(primeiros5Itens);
 
+// 14. Separe os 10 últimos itens do inventário Alpha para estudo temporal.
+
+const ultimos10Itens = inventarioAlpha.slice(16, 27);
+console.log('-------------------------');
+
+console.log(ultimos10Itens);
+
 
 
 
